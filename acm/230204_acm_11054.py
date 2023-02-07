@@ -22,9 +22,3 @@ for i in range(N):
     ans = max(ans, DP[i] + DP_B[N-1-i])
 
 print(ans-1)
-    
-    
-    
-            
-
-

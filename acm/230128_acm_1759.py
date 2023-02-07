@@ -23,5 +23,3 @@ make_pass()
 
 for an in ans:
     print(an)
-
-

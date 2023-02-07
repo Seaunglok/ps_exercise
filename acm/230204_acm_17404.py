@@ -17,7 +17,7 @@ for color in [R,G,B]:
     
     DP[N-1][color] = 10**9
     
-    print(DP)
+    # print(DP)
     ans = min(ans, min(DP[N-1]))
 
 print(ans)

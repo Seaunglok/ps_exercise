@@ -12,19 +12,19 @@ def find():
                 ans = max(cnt, ans)
             else:
                 cnt = 1
-    print("c", ans)
+    # print("c", ans)
             
     
     for c in range(N):   
         cnt = 1
         for r in range(1, N):
             if mat[r][c] == mat[r-1][c]:
-                print(r, c, cnt)
+                # print(r, c, cnt)
                 cnt += 1
                 ans = max(cnt, ans)
             else:
                 cnt = 1
-    print("r", ans)
+    # print("r", ans)
 
 for r in range(N):
     for c in range(1, N):

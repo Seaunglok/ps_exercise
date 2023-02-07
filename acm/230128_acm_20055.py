@@ -27,6 +27,3 @@ while True:
     if A.count(0) >= K:
         print(ans)
         break
-        
-    
-    
